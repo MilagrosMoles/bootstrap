@@ -1,0 +1,52 @@
+h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 50px; /* Ajusta el valor de la separación de nombres */
+}
+
+  
+  #texto {
+    float: right;
+    width:75%; /* Aumento el ancho del texto */
+    padding-right: 15%;
+}
+a{
+    color: black;
+}
+
+#texto2, #texto3{
+margin-top: 10px;
+}
+
+#opciones {
+    margin-top: 0px; /* Espacio entre el texto y las opciones */
+    margin-left: 10%;
+    width: 150%; /*ancho de las opciones */
+    padding-right: 40%;
+}
+
+#opciones .d-inline-flex {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; /* Espacio entre las opciones */
+    font-size: 18px;
+}
+
+/* Estilo para pantallas medianas y más grandes */
+@media (min-width: 768px) {
+    #opciones .d-md-inline-flex {
+        flex: 1; /* Distribuye el espacio disponible de manera uniforme entre las opciones */
+        margin-right: 10px; /* Espacio entre las opciones */
+        text-align: center; /* Centra el texto en cada opcion */
+    }
+}
